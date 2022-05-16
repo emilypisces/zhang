@@ -1,0 +1,21 @@
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+int mul_fun(int a,int b){
+    return a * b;
+}
+
+int main()
+{
+    int a,b;
+    printf("please input a: \n");
+    scanf("%d",&a);
+    printf("please input b: \n");
+    scanf("%d",&b);
+    
+    printf(" a * b = ",mul_fun(a,b));
+     
+     cout<<" a * b " ;
+
+    return 0;
+}
