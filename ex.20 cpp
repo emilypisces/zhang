@@ -1,10 +1,18 @@
 #include <iostream>
+#include <stdio.h>
 using namespace std;
 int add_fun(int a,int b){
-    return a+b;
+    return a + b;
 }
-
-
+int sub_fun(int a,int b){
+    return a - b;
+}
+int mul_fun(int a,int b){
+    return a * b;
+}
+int diy_fun(int a,int b){
+    return a / b;
+}
 int main()
 {
     int a,b;
@@ -13,6 +21,9 @@ int main()
     printf("please input b: \n");
     scanf("%d",&b);
     printf(" a + b = ",add_fun(a,b));
+    printf(" a - b = ",sub_fun(a,b));
+    printf(" a * b = ",mul_fun(a,b));
+    printf(" a / b = ",diy_fun(a,b));
     
     cout<<"Hello Earth";
     return 0;
